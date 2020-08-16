@@ -19,15 +19,15 @@
 	<meta property="og:type" content="article" />
 
     <!-- Website Title -->
-    <title>Trans</title>
-    
-    <!-- Styles -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700,700i&amp;subset=latin-ext" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/fontawesome-all.css" rel="stylesheet">
-    <link href="css/swiper.css" rel="stylesheet">
-	<link href="css/magnific-popup.css" rel="stylesheet">
-	<link href="css/styles.css" rel="stylesheet">
+    <title>prototype1</title>
+   
+    <!-- Styless -->
+    <link href=s"https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700,700i&amp;subset=latin-ext" rel=s"stylesheet">
+    <link href=" {% static 'first_page/css/bootstrap.css' %} " rel="stylesheet">
+    <link href=" {% static 'first_page/css/fontawesome-all.css' %} " rel="stylesheet">
+    <link href=" {% static 'first_page/css/swiper.css' %} " rel="stylesheet">
+	<link href=" {% static 'first_page/css/magnific-popup.css'%} " rel="stylesheet">
+	<link href=" {% static 'first_page/css/styles.css'%} " rel="stylesheet">
 	
 	<!-- Favicon  -->
     <link rel="icon" href="{% static 'first_page/images/favicon.png' %} ">
@@ -48,10 +48,10 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
         <!-- Text Logo - Use this if you don't have a graphic logo -->
-        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Evolo</a> -->
+        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">prototype1</a> -->
 
         <!-- Image Logo -->
-        <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a>
+        <a class="navbar-brand logo-image" href="{% static 'first_page\index.html' %} "><img src=" {% static 'first_page/images/logo.svg'%}" alt="alternative"></a>
         
         <!-- Mobile Menu Toggle Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,31 +63,31 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#header">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link page-scroll" href="#header">خانه <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#services">Services</a>
+                    <a class="nav-link page-scroll" href="#services">خدمات</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#pricing">Pricing</a>
+                    <a class="nav-link page-scroll" href="#pricing"> خدمات ویژه و قیمت</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#request">Request</a>
+                    <a class="nav-link page-scroll" href="#request">درخواست از ما</a>
                 </li>
 
                 <!-- Dropdown Menu -->          
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle page-scroll" href="#about" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="terms-conditions.html"><span class="item-text">Terms Conditions</span></a>
+                        <a class="dropdown-item" href="terms-conditions.html"><span class="item-text">شرایط و ضوابط</span></a>
                         <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="privacy-policy.html"><span class="item-text">Privacy Policy</span></a>
+                        <a class="dropdown-item" href="privacy-policy.html"><span class="item-text">قوانین و مقررات</span></a>
                     </div>
                 </li>
                 <!-- end of dropdown menu -->
 
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#contact">Contact</a>
+                    <a class="nav-link page-scroll" href="#contact">برقراری تماس با ما</a>
                 </li>
             </ul>
             <span class="nav-item social-icons">
@@ -123,7 +123,7 @@
                     </div> <!-- end of col -->
                     <div class="col-lg-6">
                         <div class="image-container">
-                            <img class="img-fluid" src="images/header-teamwork.svg" alt="alternative">
+                            <img class="img-fluid" src=" {% static 'first_page/images/details-1-office-worker.svg' %}" alt="alternative">
                         </div> <!-- end of image-container -->
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
@@ -133,66 +133,15 @@
     <!-- end of header -->
 
 
-    <!-- Customers -->
-    <div class="slider-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h5>Trusted By</h5>
-                    
-                    <!-- Image Slider -->
-                    <div class="slider-container">
-                        <div class="swiper-container image-slider">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="image-container">
-                                        <img class="img-responsive" src="images/customer-logo-1.png" alt="alternative">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="image-container">
-                                        <img class="img-responsive" src="images/customer-logo-2.png" alt="alternative">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="image-container">
-                                        <img class="img-responsive" src="images/customer-logo-3.png" alt="alternative">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="image-container">
-                                        <img class="img-responsive" src="images/customer-logo-4.png" alt="alternative">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="image-container">
-                                        <img class="img-responsive" src="images/customer-logo-5.png" alt="alternative">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="image-container">
-                                        <img class="img-responsive" src="images/customer-logo-6.png" alt="alternative">
-                                    </div>
-                                </div>
-                            </div> <!-- end of swiper-wrapper -->
-                        </div> <!-- end of swiper container -->
-                    </div> <!-- end of slider-container -->
-                    <!-- end of image slider -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of slider-1 -->
-    <!-- end of customers -->
-
 
     <!-- Services -->
     <div id="services" class="cards-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>Business Growth Services</h2>
-                    <p class="p-heading p-large">We serve small and medium sized companies in all tech related industries with high quality growth services which are presented below</p>
+                    <h2>شعار سایت ما</h2>
+                    <p class="p-heading p-large">خدماتی که سایت ما ارایه میدهد
+                    </p>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
             <div class="row">
@@ -200,7 +149,7 @@
 
                     <!-- Card -->
                     <div class="card">
-                        <img class="card-image" src="images/services-icon-1.svg" alt="alternative">
+                        <img class="card-image" src=" {% static 'first_page/images/services-icon-1.svg'%}" alt="alternative">
                         <div class="card-body">
                             <h4 class="card-title">Market Analysis</h4>
                             <p>Our team of enthusiastic marketers will analyse and evaluate how your company stacks against the closest competitors</p>
@@ -210,7 +159,7 @@
 
                     <!-- Card -->
                     <div class="card">
-                        <img class="card-image" src="images/services-icon-2.svg" alt="alternative">
+                        <img class="card-image" src=" {% static 'first_page/images/services-icon-2.svg'%}" alt="alternative">
                         <div class="card-body">
                             <h4 class="card-title">Opportunity Scan</h4>
                             <p>Once the market analysis process is completed our staff will search for opportunities that are in reach</p>
@@ -220,7 +169,7 @@
 
                     <!-- Card -->
                     <div class="card">
-                        <img class="card-image" src="images/services-icon-3.svg" alt="alternative">
+                        <img class="card-image" src="{% static 'first_page/images/services-icon-3.svg' %} " alt="alternative">
                         <div class="card-body">
                             <h4 class="card-title">Action Plan</h4>
                             <p>With all the information in place you will be presented with an action plan that your company needs to follow</p>
@@ -248,7 +197,7 @@
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
                     <div class="image-container">
-                        <img class="img-fluid" src="images/details-1-office-worker.svg" alt="alternative">
+                        <img class="img-fluid" src="{% static 'first_page/images/details-1-office-worker.svg' %}  " alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -263,7 +212,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="image-container">
-                        <img class="img-fluid" src="images/details-2-office-team-work.svg" alt="alternative">
+                        <img class="img-fluid" src="{% static 'first_page/images/details-2-office-team-work.svg' %} " alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
@@ -299,7 +248,7 @@
                 <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
                 <div class="col-lg-8">
                     <div class="image-container">
-                        <img class="img-fluid" src="images/details-lightbox-1.svg" alt="alternative">
+                        <img class="img-fluid" src="{% static 'first_page/images/details-lightbox-1.svg' %} " alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-4">
@@ -342,7 +291,7 @@
                 <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
                 <div class="col-lg-8">
                     <div class="image-container">
-                        <img class="img-fluid" src="images/details-lightbox-2.svg" alt="alternative">
+                        <img class="img-fluid" src="{% static 'first_page/images/details-lightbox-2.svg' %} " alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-4">
@@ -585,107 +534,7 @@
     <!-- end of request -->
 
 
-    <!-- Video -->
-    <div class="basic-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2>Check Out The Video</h2>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
-                    
-                    <!-- Video Preview -->
-                    <div class="image-container">
-                        <div class="video-wrapper">
-                            <a class="popup-youtube" href="https://www.youtube.com/watch?v=fLCjQJCekTs" data-effect="fadeIn">
-                                <img class="img-fluid" src="images/video-frame.svg" alt="alternative">
-                                <span class="video-play-button">
-                                    <span></span>
-                                </span>
-                            </a>
-                        </div> <!-- end of video-wrapper -->
-                    </div> <!-- end of image-container -->
-                    <!-- end of video preview -->
 
-                    <p>This video will show you a case study for one of our <strong>Major Customers</strong> and will help you understand why your startup needs Evolo in this highly competitive market</p>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-3 -->
-    <!-- end of video -->
-
-
-    <!-- Testimonials -->
-    <div class="slider-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="image-container">
-                        <img class="img-fluid" src="images/testimonials-2-men-talking.svg" alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-6">
-                    <h2>Testimonials</h2>
-
-                    <!-- Card Slider -->
-                    <div class="slider-container">
-                        <div class="swiper-container card-slider">
-                            <div class="swiper-wrapper">
-                                
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-1.svg" alt="alternative">
-                                        <div class="card-body">
-                                            <p class="testimonial-text">I just finished my trial period and was so amazed with the support and results that I purchased Evolo right away at the special price.</p>
-                                            <p class="testimonial-author">Jude Thorn - Designer</p>
-                                        </div>
-                                    </div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-2.svg" alt="alternative">
-                                        <div class="card-body">
-                                            <p class="testimonial-text">Evolo has always helped or startup to position itself in the highly competitive market of mobile applications. You will not regret using it!</p>
-                                            <p class="testimonial-author">Marsha Singer - Developer</p>
-                                        </div>
-                                    </div>        
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="card">
-                                        <img class="card-image" src="images/testimonial-3.svg" alt="alternative">
-                                        <div class="card-body">
-                                            <p class="testimonial-text">Love their services and was so amazed with the support and results that I purchased Evolo for two years in a row. They are awesome.</p>
-                                            <p class="testimonial-author">Roy Smith - Marketer</p>
-                                        </div>
-                                    </div>        
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-                               
-                            </div> <!-- end of swiper-wrapper -->
-        
-                            <!-- Add Arrows -->
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <!-- end of add arrows -->
-        
-                        </div> <!-- end of swiper-container -->
-                    </div> <!-- end of slider-container -->
-                    <!-- end of card slider -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of slider-2 -->
-    <!-- end of testimonials -->
 
 
     <!-- About -->
@@ -703,7 +552,7 @@
                     <!-- Team Member -->
                     <div class="team-member">
                         <div class="image-wrapper">
-                            <img class="img-fluid" src="images/team-member-1.svg" alt="alternative">
+                            <img class="img-fluid" src=" {% static 'first_page/images/team-member-1.svg'%}" alt="alternative">
                         </div> <!-- end of image-wrapper -->
                         <p class="p-large"><strong>Lacy Whitelong</strong></p>
                         <p class="job-title">Business Developer</p>
@@ -727,7 +576,7 @@
                     <!-- Team Member -->
                     <div class="team-member">
                         <div class="image-wrapper">
-                            <img class="img-fluid" src="images/team-member-2.svg" alt="alternative">
+                            <img class="img-fluid" src=" {% static 'first_page/images/team-member-2.svg'%}" alt="alternative">
                         </div> <!-- end of image wrapper -->
                         <p class="p-large"><strong>Chris Brown</strong></p>
                         <p class="job-title">Online Marketer</p>
@@ -751,7 +600,7 @@
                     <!-- Team Member -->
                     <div class="team-member">
                         <div class="image-wrapper">
-                            <img class="img-fluid" src="images/team-member-3.svg" alt="alternative">
+                            <img class="img-fluid" src=" {% static 'first_page/images/team-member-3.svg'%}" alt="alternative">
                         </div> <!-- end of image wrapper -->
                         <p class="p-large"><strong>Sheila Zimerman</strong></p>
                         <p class="job-title">Software Engineer</p>
@@ -775,7 +624,7 @@
                     <!-- Team Member -->
                     <div class="team-member">
                         <div class="image-wrapper">
-                            <img class="img-fluid" src="images/team-member-4.svg" alt="alternative">
+                            <img class="img-fluid" src=" {% static 'first_page/images/team-member-4.svg'%}" alt="alternative">
                         </div> <!-- end of image wrapper -->
                         <p class="p-large"><strong>Mary Villalonga</strong></p>
                         <p class="job-title">Product Manager</p>
@@ -820,7 +669,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="map-responsive">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100939.98555098464!2d-122.507640204439!3d37.757814996609724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2sro!4v1498231462606" allowfullscreen></iframe>
+                        <iframe src="" allowfullscreen></iframe>
                     </div>
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
@@ -944,11 +793,11 @@
     <!-- Scripts -->
     <script src=" {% static 'first_page/js/jquery.min.js' %} "></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
     <script src="{% static 'first_page/js/popper.min.js' %} "></script> <!-- Popper tooltip library for Bootstrap -->
-    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
-    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
-    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    <script src="{% static 'first_page/js/bootstrap.min.js' %} "></script> <!-- Bootstrap framework -->
+    <script src="{% static 'first_page/js/jquery.easing.min.js' %}  "></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src=" {% static 'first_page/js/swiper.min.js'%}"></script> <!-- Swiper for image and text sliders -->
+    <script src="{% static 'first_page/js/jquery.magnific-popup.js' %} "></script> <!-- Magnific Popup for lightboxes -->
+    <script src="{% static 'first_page/js/validator.min.js' %} "></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="{% static 'first_page/js/scripts.js' %} "></script> <!-- Custom scripts -->
 </body>
 </html>
