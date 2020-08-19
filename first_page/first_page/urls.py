@@ -16,9 +16,17 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path,include
 from . import views
+from questions import views as question_view
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index,name='index'),
-    path('/questions', include('questions.urls')),
+    path('services/',views.services,name='services'),
+    path('pricing/',views.pricing,name='pricing'),
+    
+    path('question_list/', question_view.question_list),
+    path('questions/', include('questions.urls')),
+    
+    
 ]
